@@ -35,9 +35,9 @@ html {
 
 body {
   font-family: ${theme.font.family.body};
-  background: ${theme.color.black};
+  // background: ${theme.color.black};
+  background-image: url(${process.env.PUBLIC_URL}/background.jpg);
   color: ${theme.color.white};
-  padding-bottom: 500px;
 }
 
 h1,

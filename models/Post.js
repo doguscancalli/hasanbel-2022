@@ -13,6 +13,8 @@ const PostSchema = new mongoose.Schema(
     slug: {
       type: String,
       slug: 'title',
+      slugPaddingSize: 4,
+      unique: true,
     },
     text: {
       type: String,

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import theme from '../../theme'
 
 export const StyledPostsDisplay = styled.section`
-  height: 500vh;
   scroll-margin: 100px;
 `
 
