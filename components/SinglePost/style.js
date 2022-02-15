@@ -5,7 +5,7 @@ export const StyledSinglePost = styled.article``
 
 export const StyledPostImage = styled.div`
   position: relative;
-  aspect-ratio: 1 / 1.4;
+  // aspect-ratio: 1 / 1.4;
 `
 export const StyledPostImageSource = styled.a`
   position: absolute;

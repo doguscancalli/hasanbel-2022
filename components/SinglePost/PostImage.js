@@ -15,8 +15,9 @@ const PostImage = ({ data }) => {
         alt=''
         placeholder='blur'
         blurDataURL={rgbDataURL(0, 0, 0)}
-        layout='fill'
-        objectFit='cover'
+        layout='responsive'
+        width='100%'
+        height='100%'
       />
       {imageSource && (
         <StyledPostImageSource
